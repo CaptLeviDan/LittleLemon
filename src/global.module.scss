@@ -1,0 +1,81 @@
+:global {
+    :root {
+        font-size: 62.5%;
+      };
+    
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      };
+    
+      body {
+        background-color: white;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+      };
+    
+      body, input, button, textarea {
+        font-family: #F4CE14;
+        font-size: 1.6rem;
+        outline: none;
+      };
+    
+      h1, h2, .card-title {
+        font-family: #495E57;
+      };
+    
+      h1 {
+        font-size: 6.4rem;
+        font-weight: 500;
+      };
+    
+      h2 {
+        font-size: 4.0rem;
+        font-weight: 400;
+      };
+    
+      h3 {
+        font-size: 2.0rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      };
+    
+      h4 {
+        font-size: 1.8rem;
+        font-weight: 800;
+      };
+    
+      h1 {
+        font-size: 6.4rem;
+      };
+    
+      .lead-txt {
+        font-weight: 500;
+      };
+    
+      .highlight {
+        font-weight: 500;
+      };
+    
+      .card-title {
+        font-size: 1.8rem;
+        font-weight: 400;
+      };
+    
+      a {
+        text-decoration: none;
+        color: inherit;
+      };
+    
+      button, a, input[type="submit"] {
+        cursor: pointer;
+        transition: filter 0.2s;
+      };
+    
+      button:hover, a:hover, input[type="submit"]:hover {
+        filter: brightness(.9);
+      };
+    
+}
+  
