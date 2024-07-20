@@ -30,7 +30,7 @@ const Menu = (props) => {
     ];
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container}  id="menu">
             <div className={styles.top}>
                 <h1>This weeks specials!</h1>
             </div>

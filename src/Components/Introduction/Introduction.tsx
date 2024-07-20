@@ -5,7 +5,7 @@ import restaurant_food from "../../assets/restaurantfood.jpg";
 
 
 const Introduction = (porps) => {
-    // const navigate: NavigateFunction = useNavigate();
+    const navigate: NavigateFunction = useNavigate();
 
     return (
         <div className={styles.container}>
@@ -16,7 +16,7 @@ const Introduction = (porps) => {
                     We are family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
                 </p>
                 <button className={styles.button}
-                    // onClick={() => navigate("/bookings")} 
+                    onClick={() => navigate("/bookings")} 
                     aria-label="Go to reservation table page.">Reserve a Table</button>
 
             </div>
